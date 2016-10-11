@@ -226,6 +226,7 @@ function keyDownEvent(e)
 {
     if (eventsReset == true)
     {
+        console.log(e.key);
         if ( e.key == "w" && (snake.speedX != 0 && snake.speedY != -1)) {
             snake.speedX = 0;
             snake.speedY = -1;
@@ -239,6 +240,22 @@ function keyDownEvent(e)
             snake.speedY = 1;
         }
         if ( e.key == "d" && (snake.speedX != 1 && snake.speedY != 0)) {
+            snake.speedX = 1;
+            snake.speedY = 0;
+        }
+        if ( e.key == "ArrowUp" && (snake.speedX != 0 && snake.speedY != -1)) {
+            snake.speedX = 0;
+            snake.speedY = -1;
+        }
+        if ( e.key == "ArrowLeft" && (snake.speedX != -1 && snake.speedY != 0)) {
+            snake.speedX = -1;
+            snake.speedY = 0;
+        }
+        if ( e.key == "ArrowDown" && (snake.speedX != 0 && snake.speedY != 1)) {
+            snake.speedX = 0;
+            snake.speedY = 1;
+        }
+        if ( e.key == "ArrowRight" && (snake.speedX != 1 && snake.speedY != 0)) {
             snake.speedX = 1;
             snake.speedY = 0;
         }
