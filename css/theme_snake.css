@@ -1,0 +1,44 @@
+.play{
+    color:yellow;
+    font-size:50px;
+    margin-top:-10px;
+    height:85px;
+    border-bottom:10px solid;
+    padding-top:15px;
+    text-shadow: 0 0 15px yellow;
+    background-color:rgb(85,210,250);
+}
+.play:hover{
+    margin-top:0px;
+    height:75px;
+    border-bottom:5px solid;
+    
+}
+.speed{
+    color:yellow;
+    font-size:50px;
+    text-shadow: 0 0 15px yellow;
+}
+.score{
+    color:yellow;
+    font-size:50px;
+    text-shadow: 0 0 15px yellow;
+}
+.mainTitle{
+    color:rgb(255,255,255);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 10px #fff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 100px #00ffff;
+}
+.pacific{
+    
+    
+    font-size:25px;
+}
+.pinkNeon{
+    background-color:rgb(50,20,50);
+    font-family: 'Pacifico', cursive;
+    color:pink;
+    text-shadow: 0 0 15px pink;
+}
+.pinkNeon:hover{
+    background-color:rgb(85,210,250);
+}
