@@ -19,7 +19,8 @@ var canvas = document.getElementById('canvas'),
     
 //Maximize canvas size
 canvas.width = window.innerWidth;   // equal to window dimension
-canvas.height = window.innerHeight-90;
+canvas.height = window.innerHeight;
+console.log(window.innerHeight);
 cw = canvas.width;
 ch = canvas.height;
 var fruits = [];
@@ -226,7 +227,6 @@ function keyDownEvent(e)
 {
     if (eventsReset == true)
     {
-        console.log(e.key);
         if ( e.key == "w" && (snake.speedX != 0 && snake.speedY != -1)) {
             snake.speedX = 0;
             snake.speedY = -1;
@@ -393,8 +393,23 @@ function drawWave()
 }
 function startPlaying()
 {
-    botMode = false;
-    $(".mainPanel").animate({"top" : "-425px"}, 1500); 
+    if (botMode == true)
+    {
+        botMode = false;
+        $(".mainPanel").animate({"top" : "-425px"}, 1500); 
+        $(".controlPanel").animate({"top" : "-180px"}, 1500); 
+        $(".play").html("Back"); 
+        map.sizeY -= 3;
+    }
+    else
+    {
+        botMode = true;
+        $(".mainPanel").animate({"top" : window.innerHeight/2 - 225 + "px"}, 1500); 
+        $(".controlPanel").animate({"top" : "-90px"}, 1500); 
+        $(".play").html("Play"); 
+        map.sizeY += 3;
+
+    }
 }
 function changeSpeed()
 {

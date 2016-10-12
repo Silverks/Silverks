@@ -22,6 +22,11 @@
 
 <body style="overflow:hidden;">
     <canvas id="canvas"></canvas>
+    <div class="row playRow">
+        <div class="col s12" style="text-align:center;">
+            <a class="waves-effect waves-light btn-large play" onclick="startPlaying()">PLAY</a>
+        </div>
+    </div>
     <div class="controlPanel row">
         <div class="col s2 score">
             SCORE:
@@ -31,9 +36,7 @@
                 <div class="col s3 score" id="score">
                 000000
                 </div>
-                <div class="col s6" style="text-align:center;">
-                    <a class="waves-effect waves-light btn-large play" onclick="startPlaying()">PLAY</a>
-                </div>
+                <div class="col s6"></div>
                 <div class="col s3 speed">
                     SPEED:
                 </div>
@@ -47,7 +50,7 @@
         </div>
     </div>
     <div class="mainPanel">
-        <span class="mainTitle">NAME LASTNAME</span><br><br><br>
+        <span class="mainTitle">KASPARS CINIS</span><br><br><br>
         <div class="row pacific">
             <div class="col s6 middle">
                 <a class="waves-effect waves-light btn pinkNeon" onclick="startPlaying()">Portfolio</a>
