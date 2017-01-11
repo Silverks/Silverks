@@ -1,0 +1,75 @@
+.depthButton{
+    color:black;
+    border-bottom:5px solid;
+    height:40px;
+}
+.depthButton:hover{
+    height:38px;
+    margin-top:2px;
+    border-bottom:3px solid;
+}
+.play{
+    color:black;
+    font-size:50px;
+    margin-top:-10px;
+    height:85px;
+    border-bottom:10px solid;
+    padding-top:15px;
+}
+.play:hover{
+    margin-top:-5px;
+    height:80px;
+    border-bottom:5px solid;
+}
+.playButton{
+    padding:0px;
+    padding-bottom:5px;
+    color:black;
+    font-size:50px;
+    margin-top:10px;
+    height:65px;
+    border-bottom:10px solid;
+    padding-top:5px;
+}
+.playButton:hover{
+    margin-top:15px;
+    height:60px;
+    border-bottom:5px solid;
+}
+.coloredButton{
+    background-color:rgb(254,241,2);
+    border-color: rgb(232,215,0);
+}
+.coloredButton:hover{
+    background-color:rgb(232,215,0);
+    border-color: rgb(183,169,0);
+}
+.speed{
+    color:black;
+    font-size:50px;
+    text-shadow: 0 0 5px black;
+}
+.score{
+    color:black;
+    font-size:50px;
+    text-shadow: 0 0 5px black;
+}
+.mainTitle{
+    color:rgb(254,241,2);
+    text-shadow: 0 0 10px rgb(251,241,131);
+    transition: text-shadow 0.2s linear;
+}
+.mainTitle:hover{
+    color:rgb(242,231,2);
+    text-shadow: 0 0 10px rgb(254,241,2);
+    transition: text-shadow 0.2s linear;
+}
+.pacific{
+    font-size:25px;
+}
+.mainPanel{
+    background-color:rgba(120,120,120, 0);
+}
+.controlPanel{
+    background-color:#EA9319;
+}

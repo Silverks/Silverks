@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kaspars Cinis</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+
+    <link rel="icon" href="img/icon.png">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/materialize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    
+    <script src="js/jquery-3.1.1.js" type="text/javascript"></script>
+    <script src="js/materialize.js" type="text/javascript"></script></script>
+</head>
+
+<body style="">
+    <canvas id="canvas" style="left:200px;"></canvas>
+    <canvas id="temporaryCanvas" class="outsideWindow"></canvas>
+    <div class="sidePanel">
+        <div onclick="regenerate()" class="button">REGENERATE</div><br>
+    </div>
+</body>
+<script src="js/perlin.js"></script>
+<script src="js/functions.js"></script>
+<script src="js/cosmos.js"></script>
+</html>
